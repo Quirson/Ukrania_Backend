@@ -319,7 +319,7 @@ public class Graph {
      * Imprime a Matriz de Adjacência formatada
      */
     public void printAdjacencyMatrix() {
-        System.out.println("\n========== MATRIZ DE ADJACÊNCIA ==========");
+        System.out.println("\n========== MATRIZ DE 1 ADJACÊNCIA ==========");
 
         // Cabeçalho
         System.out.print("        ");
