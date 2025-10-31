@@ -1,0 +1,113 @@
+/* ========== TEMA ESCURO PROFISSIONAL ========== */
+
+/* Raiz */
+.root {
+    -fx-base: #2b2b2b;
+    -fx-background: #1e1e1e;
+    -fx-control-inner-background: #3a3a3a;
+    -fx-accent: #00E5FF;
+}
+
+/* Texto */
+.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+/* Botões */
+.button {
+    -fx-background-color: #424242;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #616161;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+}
+
+.button:pressed {
+    -fx-background-color: #303030;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #3a3a3a;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #2b2b2b;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-background-color: #424242;
+}
+
+/* TextArea */
+.text-area {
+    -fx-control-inner-background: #1a1a1a;
+    -fx-text-fill: #00FF00;
+    -fx-highlight-fill: #005BBB;
+    -fx-font-family: 'Consolas', 'Monaco', monospace;
+}
+
+.text-area .content {
+    -fx-background-color: #1a1a1a;
+}
+
+/* ScrollBar */
+.scroll-bar {
+    -fx-background-color: #2b2b2b;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #616161;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #757575;
+}
+
+/* Slider */
+.slider .track {
+    -fx-background-color: #424242;
+}
+
+.slider .thumb {
+    -fx-background-color: #00E5FF;
+}
+
+/* Separator */
+.separator .line {
+    -fx-border-color: #424242;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-background-color: #424242;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 5;
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Animações suaves */
+* {
+    -fx-transition: all 0.3s ease;
+}
